@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+ }
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 5px;
+    color: black;
+}
+
+nav {
+    
+    background-color:rgb(179, 150, 96);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    margin-top: -110px;
+}
+
+header {
+    display: inline;
+ }
+
+ul.submenu {
+    display: none;
+}
+
+ul.menu li:hover ul.submenu {
+    display: block;
+    position: absolute;
+    padding-left: 200px;
+}
+
+ul.submenu li {
+    display: block;
+    background-color: black;
+    width: 150px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+
+
+.infoutama   {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+ nav a {
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    text-decoration: none;
+ }
+
+ body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+ }
+
+ nav a:hover {
+    font-weight: bold;
+}
+
+body {
+    line-height: 25px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+ ol, li {
+     list-style-type: decimal;
+ }
+
+ footer {
+    padding: 10px;
+    color: white;
+    background-color:rgb(179, 150, 96);
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+    
+}
+
+#content {
+    float: left;
+    width: 75%;
+    padding-right: 20px;
+ }
+
+ aside {
+    float: right;
+    width: 25%;
+    box-shadow: 3px 2px 3px 7px #666666;
+    background-color: rgb(153, 147, 136);
+    color: black;
+    border-radius: 7px;
+    margin-top: 20px;
+    height: 530px;
+    padding-left: 20px;
+ }
+
+ .card {
+    box-shadow: 2px 2px 3px 5px #666666;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.infolain {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image2 {
+    width: 50%;
+    
+}
+
+.imageheader {
+    width: 100%;
+    max-height: 500px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.judul {
+    position: absolute;
+    top: 300px;
+    padding-left: 15%;
+    padding-right: 8%;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+    .image3 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .imageheader, .image, .image2 {
+        width: 100%;
+    }
+ }
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    .judul {
+        width: 100%;
+        top: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 18px;
+    }
+    }
+
+
+
+
+    @media screen and (min-width: 700px) and (max-width: 1350px) {
+        .judul {
+            width: 100%;
+            top: 250px;
+            padding-left: 3%;
+            padding-right: 3%;
+            font-size: 18px;
+        }
+        }
+    
+
+    
+    
+
+ 
+ 
+
